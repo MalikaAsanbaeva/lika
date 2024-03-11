@@ -1,0 +1,283 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat';
+   -webkit-font-smoothing: antialiased;
+   width: 100%;
+   width: 1200px;
+   margin: 0% auto;
+}
+
+/*===========header*/
+.header {
+   background: #A60F26;
+   width: 100%;
+   width: 1200px;
+   margin: 0% auto;
+}
+
+
+/*============HEADER__INNER============*/
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 0px;
+}
+
+/*=============HEADER__LOGO================*/
+.header__logo {
+   border-radius: 0px;
+   width: 232px;
+}
+
+
+/*==================NAV======================*/
+.nav {
+   display: flex;
+   font-weight: 400;
+   font-style: normal;
+}
+
+
+/*===============NAV__LINK===============*/
+.nav__link {
+   margin-right: 15px;
+   margin-left: 50px;
+   font-size: 13px;
+   color: #FFFFFF;
+   text-decoration: no;
+   opacity: .75;
+}
+
+.nav__link:first-child {
+   margin-left: 0;
+}
+
+.nav__link:hover {
+   opacity: 1;
+}
+
+.intro {
+   display: flex;
+   margin-top: 10px;
+   padding-top: 0px;
+   margin-left: 5px;
+}
+
+.cart__link {
+   text-decoration: none;
+   font-style: normal;
+   color: #222222;
+   font-size: 15px;
+   font-weight: 400;
+   margin-right: 30px;
+   opacity: .75;
+}
+
+.cart__link:first-child {
+   margin-left: 0;
+}
+
+.cart__link:hover {
+   opacity: 1;
+}
+
+
+.features {
+   display: block;
+   margin-top: 13px;
+}
+
+.features__icon {
+   width: 1198px;
+   height: 505px;
+}
+
+.features__title {
+   width: 386px;
+   height: 12px;
+   font-weight: 400;
+   margin-bottom: 30px;
+}
+
+.features__item {
+   display: inline-block;
+   text-align: center;
+   margin-left: 5px;
+   padding: 15px;
+   text-decoration: none;
+}
+
+
+
+.features__img {
+   width: 362px;
+   height: 222px;
+   left: 830px;
+   top: 668px;
+}
+
+.features__text {
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 25px;
+}
+
+.text__home {
+   text-decoration: none;
+   font-style: normal;
+   color: #333333;
+   font-weight: 400;
+   opacity: .75;
+}
+
+.text__home.cart__link:first-child {
+   margin-left: 0;
+}
+
+.text__home:hover {
+   opacity: 1;
+}
+
+.works__item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0px auto;
+   padding: 5px;
+}
+
+.adw_big {
+   margin-right: 20px;
+   font-size: 60px;
+   font-weight: 400;
+   color: #A60F26;
+}
+
+.adw_text {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+
+.features__rr {
+   display: block;
+   margin-left: 0;
+   padding-left: 0;
+}
+
+.btn-center {
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 50px;
+}
+
+
+.features__dd{
+   display: inline-block;
+   margin: 0 20px 20px 0;
+   padding: 5px;
+}
+
+
+.features__pic {
+   margin-left: 5px;
+   width: 362px;
+   height: 222px;
+}
+
+.features__uu{
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 20px;
+}
+
+.text__h {
+   display: flex;
+   text-align: center;
+   margin-left: 50px;
+   text-decoration: none;
+   font-style: normal;
+   color: #333333;
+   font-weight: 400;
+   opacity: .75;
+}
+
+.text__h.cart__link:first-child {
+   margin-left: 0;
+}
+
+.text__h:hover {
+   opacity: 1;
+}
+
+
+/*----jksdhfksjdhklfj----*/
+
+.fixw_padh {
+   display: flex;
+   width: 100%;
+   height: 209px;
+   left: 0px;
+   background: #333333;
+   border-radius: 0px;
+}
+ul {
+   list-style-type:none;
+}
+
+
+.flex-space_padbtm {
+   display: flex;
+   -webkit-justify-content: space-between;
+   justify-content: space-between;
+}
+
+.frstm {
+   padding-left: 46px;
+}
+
+.frstm_a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 400;
+   color: #E3E7EC;
+   font-size: 13px;
+   line-height: 16px;
+   opacity: .75;
+}
+
+.frstm_a.cart__link:first-child {
+   margin-left: 0;
+}
+
+.frstm_a:hover {
+   opacity: 1;
+}
+
+.frstm__ba {
+   padding-left: 0px;
+}
+
+.frstm_b {
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   color: #8C909C;
+   opacity: .75;
+}
+
+.frstm_b.cart__link:first-child {
+   margin-left: 0;
+}
+
+.frstm_b:hover {
+   opacity: 1;
+}
+
+
+
+
+
